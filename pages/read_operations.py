@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import db_fxns as db
-import plotly.express as px
+# import plotly.express as px #since we're not plotting yet
 st.subheader("View Items")
 
 tasks = db.read_data()
