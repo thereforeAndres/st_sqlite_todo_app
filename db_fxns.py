@@ -1,11 +1,6 @@
 import sqlite3
 
 
-#database
-#table
-#field/columns
-#datatypes
-
 def create_table():
   conn = sqlite3.connect('todo.db')
   c = conn.cursor()
